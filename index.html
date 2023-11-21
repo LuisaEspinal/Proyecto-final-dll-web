@@ -7,6 +7,9 @@
     <title>Sundays</title>
     <link rel="shortcut icon" href="./Assets/img/ramen.png" type="image/x-icon">
     <link rel="stylesheet" href="./Assets/css/Index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -14,15 +17,17 @@
 
     <header class="header">
         <nav class="Menu" ">
-        <img class=" Logo" src="./Assets/img/ramen.png" alt="Logo principal"">
-        <h1 class=" h1">Sundays</h1>
+            <div class=" brand">
+            <img class=" Logo" src="./Assets/img/ramen.png" alt="Logo principal"">
+                <h1 class=" h1">Sundays</h1>
+            </div>
             <ul>
                 <li><a class=" Enlace" href="#">Inicio</li>
                 </li>
-                <li><a class="Enlace" href="#">Acerca de nosotros</a></li>
+                <li><a class="Enlace" href="#AcercadeNosotros">Acerca de Nosotros</a></li>
                 <li><a class="Enlace" href="./Assets/views/form.html">Blog</>
                 </li>
-                <li><a class="Enlace" href="#">Inicia sesion</>
+                <li><a class="Enlace" href="./Assets/view/Form.html">Inicia sesion</>
                 </li>
             </ul>
 
@@ -33,7 +38,8 @@
     <main>
         <img class="Restaurante-bar" src="./Assets/img/Restaurant.svg" alt="Restaurante-bar">
         <div class="contenedor-descripcion">
-            <p> ¿Quienes somos?
+            <p id="AcercadeNosotros">
+                ¿Quienes somos?
                 Nosotros somos una empresa 100% Colombiana enfocada en la cultural oriental sin dejar de lado
                 nuestras raíces colombianas con temáticas exclusivas. Sundays un restaurante-bar enfocado en la cultura
                 oriental sin dejar de lado nuestras raíces colombianas que cuenta con temáticas exclusivas para todo
@@ -62,7 +68,7 @@
         <span>© 2023 · Sundays · Todos los derechos reservados
         </span>
     </Footer>
-    
+
 </body>
 
 </html>

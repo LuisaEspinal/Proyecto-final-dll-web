@@ -1,5 +1,5 @@
 header {
-    background-color: #d824a7;
+background-color: #d824a7;
 position: fixed;
 top: 0px;
 left: 0px;
@@ -7,27 +7,36 @@ width: 100%;
 box-shadow: -7px 7px 30px 2px rgba(0,0,0,0.69);
 }
 .Logo {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
+    
 }
 .Menu {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+   align-items: center;
 }
 .Menu ul {
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 60px;
+    gap: 80px;
 }
 .Menu li {
-    transition: 0.03s;
+    transition: 0.5s;
 }
 .Menu li:hover {
-    transform: translateY(-3xp);
+  transform: translateY(-3px);
 }
 .Enlace {
     text-decoration: none;
     color: rgb(255, 255, 255);
+}
+.brand h1 {
+font-size: 10xp;
+color: #fff;
+}
+.brand {
+    display: flex;
+    gap: 30px;
 }
