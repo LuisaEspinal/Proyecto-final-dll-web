@@ -1,49 +1,56 @@
-*{
-    Margin: 0;
-    padding: 0;
-    font-family: 'Kanit', sans-serif;
+* {
+ margin: 0;
+ padding: 0;
+ font-family: 'Montserrat', sans-serif;
 }
-.header {
-    background-color: #f7b6e9de;
+body {
+    background: rgb(220, 129, 207);
+    background: linear-gradient(0deg, rgba(220, 129, 207, 0.8889727766106442) 0%, rgba(205, 85, 164, 0.9085806197478992) 30%, rgba(226, 82, 187, 0.9197851015406162) 70%, rgba(216, 36, 167, 1) 100%);
 }
+    .header {
+        background-color: #d824a7;
+    }
 
-.Logo {
-    width: 60px;
-    height: 60px;
-}
+    .Logo {
+        width: 60px;
+        height: 60px;
+    }
 
-.h1 {
-    font-size: 60px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.Restaurante {
-    width:100vw;
-    height: 65VW;
-    margin: auto;
-    width: 100%;
-}
-.p {
-    padding: 50px;
-    border: 2px solid;
-}
+    .h1 {
+        font-size: 60px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 
-.Menu {
-display: flex; 
-justify-content: space-between;
-align-items: center;
-}
+    .Restaurante {
+        width: 100vw;
+        height: 65VW;
+        margin: auto;
+        width: 100%;
+    }
 
-.Menu ul {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    padding: 20px;
-    list-style: none;
-    gap: 50px;
-}
-.Enlace {
-    text-decoration: none;
-    color: black;
-}
+    .p {
+        padding: 50px;
+        border: 2px solid;
+    }
+
+    .Menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Menu ul {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 20px;
+        list-style: none;
+        gap: 60px;
+    }
+
+    .Enlace {
+        text-decoration: none;
+        color: black;
+    }
