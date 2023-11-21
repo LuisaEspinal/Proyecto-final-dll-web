@@ -64,4 +64,11 @@ box-shadow: -7px 7px 30px 2px rgba(0,0,0,0.69);
 .Restaurante-descripcion {
     width: 500px;
     margin-bottom: 100px;
+    margin-bottom: 60px;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #d824a7;
+    font-weight: bold;
 }
