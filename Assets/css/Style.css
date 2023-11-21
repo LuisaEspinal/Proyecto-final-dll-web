@@ -43,6 +43,12 @@ box-shadow: -7px 7px 30px 2px rgba(0,0,0,0.69);
     list-style: none;
     gap: 60px;
 }
+.Menu li {
+    transition: 0.03s;
+}
+.Menu li:hover {
+    transform: translateY(-3xp);
+}
 .Enlace {
     text-decoration: none;
     color: rgb(255, 255, 255);
