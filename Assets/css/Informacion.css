@@ -8,11 +8,11 @@
     margin-bottom: 80px;
 }
 
-.Restaurante-descripcion {
+.Information__imagen{
     width: 500px;
-}
+}   
 
-.descripcion {
+.Informacion__descripcion {
    padding: 20px;
    border: 2xp solid;
     font-size: 18px;
