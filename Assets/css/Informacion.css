@@ -7,10 +7,12 @@
     align-items: center;
     margin-bottom: 80px;
 }
-.Restaurante-descripcion {
-    width: 350px;
-    margin-bottom: 85px;
-    padding: 20px;
-    align-items: center;
 
+.Restaurante-descripcion {
+    width: 500px;
+}
+
+.Descripcion {
+    font-size: 18px;
+    line-height: 27px;
 }
