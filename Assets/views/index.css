@@ -24,7 +24,7 @@ body {
 }
 
 .Card__imagen {
-    width: 200px;
+    width: 250px;
     border-radius: 20px;
 }
 
@@ -52,10 +52,17 @@ body {
 }
 .Card__boton:hover{
 background-color: rgb(51, 51, 51);
-color: rgb(253, 165, 249);
-transform: translateY(-3xp) ;
-border: 1px solid rgb(253, 165, 249);
+color:  rgb(253, 165, 249);
+transform: translateY(-3xp);
+border: 2px solid rgb(250, 59, 240);
 }
 .Card__boton--active{
-
+    background-color: aquamarine;
 }
+.Card__boton--active:hover{
+    border: 2px solid rgb(11, 235, 235);
+    color: aqua;
+}
+
+
+   
