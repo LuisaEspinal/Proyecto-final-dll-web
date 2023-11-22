@@ -1,6 +1,14 @@
-footer {
-    padding: 20px;
+.Footer {
     text-align: center;
     background-color: #d824a7;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer__texto {
+    padding: 20px;
+
     font-weight: bold;
 }
