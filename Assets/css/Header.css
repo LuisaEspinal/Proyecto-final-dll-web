@@ -17,6 +17,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
+    padding: 20px;
 }
 
 .Menu ul {
@@ -40,11 +42,12 @@ header {
 }
 
 .brand h1 {
-    font-size: 10xp;
+    font-size: 20xp;
     color: #fff;
 }
 
 .brand {
     display: flex;
-    gap: 30px;
+    align-items: center;
+    gap: 15px;
 }
