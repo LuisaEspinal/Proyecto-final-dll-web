@@ -8,13 +8,12 @@
     margin-bottom: 80px;
 }
 
-.Information__imagen{
+.Information__imagen {
     width: 500px;
-}   
+}
 
 .Informacion__descripcion {
-   padding: 20px;
-   border: 2xp solid;
+
     font-size: 18px;
     line-height: 27px;
 
