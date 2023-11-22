@@ -4,17 +4,15 @@
     margin: auto;
     margin-top: 80px;
     gap: 80px;
-    align-items: center;
-}
-.Restaurante-descripcion {
-    width: 500px;
-    margin-bottom: 100px;
+    text-align: center;
     margin-bottom: 60px;
 }
+
 .Restaurante-bar {
-    width: 80vw;
-    height: 60VW;
-    margin: auto;
+    width: 50vw;
+    height: 50VW;
     width: 100%;
+    margin: auto;
+    align-items: center;
     margin-top: 120px;
 }
