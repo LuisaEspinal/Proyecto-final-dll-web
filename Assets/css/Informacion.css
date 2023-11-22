@@ -1,4 +1,4 @@
-.contenedor-descripcion {
+.Information {
     display: flex;
     max-width: 1310px;
     margin: auto;
@@ -17,5 +17,5 @@
    border: 2xp solid;
     font-size: 18px;
     line-height: 27px;
-    
+
 }
