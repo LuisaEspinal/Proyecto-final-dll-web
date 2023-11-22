@@ -1,6 +1,8 @@
-.Restaurante-descripcion {
-    width: 350px;
-    margin-bottom: 85px;
-    padding: 20px;
+.Restaurante-bar {
+    width: 50vw;
+    height: 50VW;
+    width: 100%;
+    margin: auto;
     align-items: center;
+    margin-top: 120px;
 }
