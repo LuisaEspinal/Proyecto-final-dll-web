@@ -1,15 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Sundays</title>
-    <link rel="shortcut icon" href="./../img/ramen.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/ramen.png" type="Logo principal">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
+
 <body>
-    <H1>Blog Sundays</H1>
-    <H3>Danos tu opinion sobre nuestros servicios.
-        Te escuchamos!</H3>
-    <a href="./../../index.html">Regresar</a>
+
+    <header>
+        <nav class="Menu" ">
+            
+            <img class=" Logo" src="./Assets/img/ramen.png" alt="Logo principal"">
+                <h1 class=" h1">Sundays</h1
+            <ul>
+                <li><a class=" Enlace" href="#">Inicio</li>
+                </li>
+                <li><a class="Enlace" href="#AcercadeNosotros">Acerca de Nosotros</a></li>
+                <li><a class="Enlace" href="./Assets/views/form.html">Blog</>
+                </li>
+                <li><a class="Enlace" href="./Assets/view/Form.html">Inicia sesion</>
+                </li>
+            </ul>
+
+        </nav>
+
+        <h1>Blog Sundays</h1>
+
+    </header>
+
+    <main>
+        <article>
+            <h3>Artículos del Blog</h3>
+            <p>Contenido de los Artículos...</p>
+        </article>
+
+        <section class="Seccion Comentarios">
+            <h5>Comentarios</h5>
+
+            <form class="Comentarios formulario">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="Comentarios">Comentario:</label>
+                <textarea id="Comentario" name="Comentario" rows="4" required></textarea>
+
+                <button type="submit">Enviar comentario</button>
+            </form>
+
+            <ul class="Lista de Comentarios">
+                <li class="Comentario">
+                    <h3>Luisa Espinal</h3>
+                    <p>Me parece un excelente restaurante, se hace un ambiente calido y tranquilo para comer en familia
+                        como estando solo con tranquilidad, lo recomiendo </p>
+                </li>
+
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <Span>Derechos de Autor © 2023 - Sundays</Span>
+    </footer>
+
 </body>
+
 </html>
