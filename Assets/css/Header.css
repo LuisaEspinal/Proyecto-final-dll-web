@@ -26,10 +26,10 @@ header {
     align-items: center;
     list-style: none;
     gap: 40px;
-    align-items: center;
+    
     width: 100%;
     background-color: #b83a96;
-    padding-block: 15px;
+    padding-top: 15px;
 }
 
 .Menu li {
