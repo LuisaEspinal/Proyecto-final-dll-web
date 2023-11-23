@@ -26,6 +26,10 @@ header {
     align-items: center;
     list-style: none;
     gap: 40px;
+    align-items: center;
+    width: 100%;
+    background-color: #b83a96;
+    padding-block: 15px;
 }
 
 .Menu li {
@@ -43,21 +47,28 @@ header {
 }
 
 .brand h1 {
-    font-size: 40xp;
+    font-size: 50px;
     color: #fff;
 }
 
 .brand {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 16px;
+}
+.brand__icon {
+    color: #fff;
+    font-size: 3rem;
+    display: none !important;
+}
+.brand__contenido {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 @media (width <= 480px) {
-    .html {
-        font-size: 25px;
-    }
-
+ 
     .Menu {
         flex-direction: column;
         align-items: start;
@@ -71,4 +82,17 @@ header {
         background-color: #b83a96;
         padding-block: 15px;
     }
+
+    .brand{
+        padding: 13px;
+        justify-content: space-between;
+        width: calc(100% - 40px);
+    }
+
+    .brand__icon {
+        display: block !important;
+    }
+    .Menu--hidden ul {
+        display: none;
+     }
 }

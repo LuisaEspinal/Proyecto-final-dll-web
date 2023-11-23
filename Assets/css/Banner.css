@@ -1,7 +1,17 @@
 .Banner {
     width: 70vw;
-    height: 70vm;
+    height: 70vh;
     margin: auto;
     width: 100%;
     margin-top: 120px;
+}
+
+@media (width <= 480px) {
+
+    .Banner{
+       height: auto;
+       width: 400px;
+       margin: 40px;
+       margin-top: 120px;
+    }
 }

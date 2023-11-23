@@ -8,33 +8,33 @@
     <link rel="shortcut icon" href="./Assets/img/ramen.png" type="image/x-icon">
     <link rel="stylesheet" href="./Assets/css/Index.css">
     <link rel="stylesheet" href="./Assets/css/formulario.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
 
 
-    <header class="header">
-
-        <div class=" brand">
-            <img class=" Logo" src="./Assets/img/ramen.png" alt="Logo principal"">
-            <h1 class=" h1">Sundays</h1>
+<header class="header">
+    <nav class="menu Menu--hidden">
+        <div class="brand">
+          <div class="brand__contenido" >
+            <img class="Logo" src="./Assets/img/ramen.png" alt="Logo principal"">
+            <h1 class="h1">Sundays</h1>
+          </div>
+          <i class="brand__icon bx bx-menu"></i>
         </div>
+    <ul>
+        <li><a class="Enlace" href="#">Inicio</a></li>
+        <li><a class="Enlace" href="#AcercadeNosotros">Acerca de Nosotros</a></li>
+        <li><a class="Enlace" href="#">Formulario</a></li>
+        <li><a class="Enlace" href="./Assets/view/Form.html">Iniciar sesion</a></li>
+    </nav>
 
-        <nav class="Menu" ">
-            <ul> 
-            <li><a class="Enlace" href="#">Inicio</a></li>
-            <li><a class="Enlace" href="#AcercadeNosotros">Acerca de Nosotros</a></li>
-            <li><a class="Enlace" href="#">Formulario</a></li>
-            <li><a class="Enlace" href="./Assets/view/Form.html">Iniciar sesion</a></li>
-        </nav>
+</header>
 
-    </header>
-
-    <main>
-        <img class="Banner" src="./Assets/img/Restaurant.svg" alt="Restaurante-bar">
+<main>
+    <img class="Banner" src="./Assets/img/Restaurant.svg" alt="Restaurante-bar">
         <div class="Informacion">
             <p class="Informacion__descripcion" id="AcercadeNosotros">
                 ¿Quienes somos?
@@ -58,7 +58,7 @@
                 multicultural entre Asia Oriental y Sur América para el año 202@. Somos una empresa Asociativa de
                 Trabajo, nosotras damos nuestras capacidades laborales cumplimiento los objetivos de la empresa.
             </p>
-            <img class="Informacion__imagen" src="./Assets/img/Restaurante op.svg" alt="Restaurante descripcion">
+        <img class="Informacion__imagen" src="./Assets/img/Restaurante descripcion.png" alt="Descripcion restaurante-bar imagen">
         </div>
     </main>
 

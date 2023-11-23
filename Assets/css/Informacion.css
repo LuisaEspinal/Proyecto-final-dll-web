@@ -16,5 +16,34 @@
 
     font-size: 18px;
     line-height: 27px;
+    background-color: #b83a96;
+    border-radius: 15px;
+    color: #fff;
+    margin-inline: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+@media (width <=480px) {
+
+    .Information {
+        display: block;
+        text-align: center;
+    }
+
+    .Informacion__descripcion {
+        padding: 20px;
+        line-height: 20px;
+        background-color: #b83a96;
+        border-radius: 15px;
+        color: #fff;
+        margin-inline: 20px;
+    }
+
+    .Information__imagen {
+        width: 300px;
+        margin: auto;
+    }
 
 }
